@@ -1,0 +1,65 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: poppins;
+    color: #fff;
+    background-color:pink;
+}
+ .container{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  height: 190px;
+  width: 200px;
+  padding: 100px;
+  background-color:aquamarine;
+  border-radius: 100px;
+  border: 10px whitesmoke;
+} 
+
+.card{
+    border-radius: 50px;
+    color: white;
+    padding: 3%;
+    box-shadow:  5px 5px 10px yellow, -5px -5px -10px yellow;
+    text-align: center;
+  
+}
+
+  img #icon{
+    size: 70px;
+    width: 20%;
+
+}
+.card h4{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+h6 #weather{
+    text-transform: capitalize;
+} 
+ button.refresh{
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    background: transparent;
+    border: 0;
+    color: #9c9c9d;
+    font-size: 30px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 4px 10px #252525,5px 5px 18px #ffffff;
+
+}
+button.refresh:hover{
+    box-shadow: inset 10px 4px 10px #252525,inset 5px 5px 18px #ffffff;
+
+}  
+
+    
